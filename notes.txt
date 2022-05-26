@@ -1,0 +1,4 @@
+Bioconductor core team is working on a database of build reports to get a view of packages over time that would put the information collected in the scripts here into a database. Not active yet but hopefully forth coming. Early work on this at the repos: 
+
+https://github.com/lshep/BiocBuildReportDb 
+https://github.com/lshep/BuildReportDatabase
