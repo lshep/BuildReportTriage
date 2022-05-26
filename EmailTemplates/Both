@@ -1,0 +1,16 @@
+
+We would like to bring to your attention that your package is failing to build
+or check on our release and devel build machines:
+
+Devel:
+bioconductor.org/checkResults/devel/bioc-LATEST/
+
+Release:
+bioconductor.org/checkResults/release/bioc-LATEST/
+
+Would you mind taking a look at this? Don't hesitate to ask on the bioc-devel mailing list if you have any question or need help.
+
+This is very problematic.   If no action is taken over the next few weeks we
+ will begin the deprecation process for your package.
+
+Thank you for your time and effort. We appreicate your quick attention to this matter.

@@ -1,0 +1,9 @@
+You have been warned multiple times.  We are proceeding with deprecation of your
+package.  The package will remain deprecated until the package is fixed to build
+and check cleanly on the Bioconductor builders AND you formally request
+undeprecation at bioc-devel@bioconductor.org.
+If the package remains deprecated, at the time of the next release (normally
+April/May or Oct/Nov) the package will be removed from Bioconductor and the
+package will have to be resubmitted and undergo review to be reinstated.
+
+

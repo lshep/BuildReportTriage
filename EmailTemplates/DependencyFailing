@@ -1,0 +1,11 @@
+We understand that your package is failing because dependency package
+xxx is not available.  We have tried to reach out to the maintainer of package
+xxx who has currently been unresponsive or has not fixed their package. If their
+package remains broken, your package is also at risk for deprecation.  We
+encourage you to reach out to the maintainer of xxx to encourage a prompt bug
+fix or to start adapting your package to not utilize the functionality of xxx in
+preparation for it being removed and to avoid deprecation of your package.
+
+Don't hesitate to ask on the bioc-devel mailing list if you have any question or need help.
+
+Thank you for your time and effort. We appreicate your quick attention to this matter.

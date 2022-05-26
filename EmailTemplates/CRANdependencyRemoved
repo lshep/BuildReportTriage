@@ -1,0 +1,13 @@
+We understand that your package is failing because dependency package
+xxx is not available. xxx was removed from CRAN on xx-xx-xxxx. (optionally
+include link to CRAN removal page)
+
+We only allow dependencies that are actively on CRAN or Bioconductor. We
+encourage you to reach out to the maintainer of the CRAN package to see if it
+will or can be reinstated but otherwise you will need to alter your package to
+longer list the package as a dependency.
+
+Your package is at risk for deprecation if it remains broken. Don't hesitate to ask on the bioc-devel mailing list if you have any question or need help.
+
+
+Thank you for your time and effort. We appreicate your quick attention to this matter.

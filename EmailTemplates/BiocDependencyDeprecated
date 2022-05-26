@@ -1,0 +1,12 @@
+We understand that your package is failing because dependency package
+xxx is not available.  It should be noted the xxx was deprecated in Bioconductor
+version . You will need to alter your package to not utilize xxx.
+
+
+We understand that your package is failing because dependency package
+xxx is not available. xxx was removed from CRAN on  xxx . You will need to alter
+your package to not utilize xxx.
+
+cran.r-project.org/web/packages/xxx/index.html
+
+

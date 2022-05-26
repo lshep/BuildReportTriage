@@ -1,0 +1,17 @@
+Hello Package Maintainer,
+
+The Bioconductor Team would like to notify you that your package is currently
+failing on the devel version of Bioconductor, and has been for an extended
+period of time.  Please fix your package to R CMD build and R CMD check cleanly
+immediately to avoid deprecation of your package. While devel is a place to
+experiment with new features, we expect packages to build and check cleanly in a
+reasonable time period and not stay broken for any extended period of time. If
+you are having trouble or have any further questions please do not hesitate to
+reach out to the developers mailing list at bioc-devel@r-project.org
+
+We appreciate your attention to this matter. 
+
+Cheers
+
+
+bioconductor.org/checkResults/devel/bioc-LATEST/

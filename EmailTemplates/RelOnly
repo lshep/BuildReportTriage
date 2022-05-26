@@ -1,0 +1,10 @@
+Hello,
+
+We would like to inform you that your package is failing on the release version of Bioconductor.  
+
+bioconductor.org/checkResults/release/bioc-LATEST/
+
+This ERROR does not occur in the devel version of Bioconductor.  Perhaps you fixed a bug and pushed changes only to the git.bioconductor.org master branch?  Please remember to also push bug corrections to RELEASE_X_Y branch.  
+
+Fixing bugs in release and devel:
+http://contributions.bioconductor.org/git-version-control.html#bug-fix-in-release-and-devel
