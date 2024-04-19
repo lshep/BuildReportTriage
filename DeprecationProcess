@@ -13,3 +13,8 @@ Update or Create zzz.R file
     .Deprecated(msg=paste(strwrap(msg, exdent=2), collapse="\n"))
 }
 
+
+
+## When final posting for release cross check list with
+## names(which(BiocCheck:::get_deprecated_status(version="3.19")))
+## setdiff()
