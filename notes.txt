@@ -2,3 +2,26 @@ Bioconductor core team is working on a database of build reports to get a view o
 
 https://github.com/lshep/BiocBuildReportDb 
 https://github.com/lshep/BuildReportDatabase
+
+
+## Sean's newer version 
+https://github.com/seandavi/BiocBuildDB
+https://github.com/seandavi/bioc-r-universe-build-db
+
+
+## Lori refactored version and accompanied package
+https://github.com/lshep/BiocBuildDB
+https://github.com/lshep/BiocBuildReporter
+https://github.com/lshep/bioc-r-universe-build-db
+
+
+## Lori's  Valid Maintainer Email App and Package
+https://github.com/lshep/RubyMaintainerValidationApp
+https://github.com/lshep/BiocMaintainerApp
+
+
+
+## Too Run the scriptsForLocalCSV likely want a cronjob
+00 08 * * * cd /home/lorikern/Projects/FailingPackages/Reports3.22_3.23 && /home/lorikern/R-Installs/bin/R-devel/bin/R -f ReportSoftware.R > log/Software.log 2>&1
+15 08 * * * cd /home/lorikern/Projects/FailingPackages/Reports3.21_3.22 && /home/lorikern/R-Installs/bin/R-4-5-branch/bin/R -f ReportSoftwareDevelReleaseOnly.R > log/SoftwareDevRel.log 2>&1
+
