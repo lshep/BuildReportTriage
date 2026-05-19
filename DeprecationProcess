@@ -9,7 +9,7 @@ Update or Create zzz.R file
 .onAttach <- function(libname, pkgname) {
     msg <- sprintf(
         "Package '%s' is deprecated and will be removed from Bioconductor
-         version %s", pkgname, "3.20")
+         version %s", pkgname, "3.24")
     .Deprecated(msg=paste(strwrap(msg, exdent=2), collapse="\n"))
 }
 
@@ -18,3 +18,6 @@ Update or Create zzz.R file
 ## When final posting for release cross check list with
 ## names(which(BiocCheck:::get_deprecated_status(version="3.19")))
 ## setdiff()
+
+
+Your package is now deprecated.  Please do not undeprecate the package yourself.  To avoid deprecation, fix the package before the next release so that it is building/checking cleanly on our build system.  Once its building cleaning you can reach back out here or on bioc-devel to request un-deprecation
