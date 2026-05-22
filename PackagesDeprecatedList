@@ -1,66 +1,11 @@
 Software:
 User Requestes:
-BubbleTree
-CuratedAtlasQueryR
-IONiseR
-hmdbQuery
-rols  (OmicsMLRepoR struct Msnbase spatialHeatmap RforProteomics)
-scviR
-SGCP
+pathRender
 
 Unresponsive:
-APAlyzer
-ballgown (VaSP variancePartition)
-bamsignals (crupR epigraHMM karyoploteR normr segmenter hoardeR)
-barcodetrackR
-basecallQC
-biobroom (TPP)
-biodbChebi
-BiRewire
-BPRMeth
-CelliD
-ChIPQC
-ccrepe
-cummeRbund
-debCAM
-DeconRNASeq
-geneXtendeR
-GEOexplorer
-GNET2
-granulator
-hca
-IMAS
-Melissa
-MetaNeighbor
-MethReg
-mfa
-microSTASIS
-MineICA
-motifcounter
-MSPrep
-nearBynding
-netprioR
-normr
-Organism.dplyr (linkSet Ularcirc)
-partCNV
-RcisTarget
-receptLoss
-RgnTX
-RiboProfiling
-RTCGA (TdbasedUFEadv RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
-shiny.gosling (gINTomics)
-soGGi (profilerplyr)
-SigFuge
-spatzie
-SQLDataFrame
-supersigs
-tLOH
 
 Experiment Data:
 Requested:
-curatedBreastData
-Fletcher2013b
-rRDPData
 
 Unresponsive:
 
@@ -73,26 +18,50 @@ Unresponsive:
 
 Annotation Data:
 Requested
-hpAnnot
+cMAP
+hgu95av2 (BicARE (dep miRSM), tkWidgets (a lot)) - suggest hgu95av2.db
 
-
+Unresponsive
 
 
 
 UnDeprecated!!
 Software:
-Rfastp
-netZooR
-beadarray?
+ChIPQC
 
 Experiment:
-curatedCRCData
 
 
 
 
 ## Dependencies of RTCGA ... give him until hard remove
 
+#ballgown (VaSP variancePartition)
+VaSP
+variancePartition (dreamlet, crumblr, LimROTS, muscat, zenith, GRaNIE)
+
+#bamsignals (crupR karyoploteR normr segmenter)
+crupR 
+fourSynergy 
+karyoploteR (CopyNumberPlots, CNVfilteR, CNViz, fourSynergy, multicrispr,
+TmCalculator, Category, EpiMix, UPDhmm, MitoEAR)
+normr (also deprecated)
+segmnter
+
+#biobroom (TPP)
+TPP (Rtpca)
+
+#Organism.dplyr (linkSet Ularcirc)
+linkSet
+Ularcirc 
+
+#shiny.gosling (gINTomics)
+gINTomics 
+
+#soGGi (profilerplyr)
+profilerplyr 
+
+#RTCGA (TdbasedUFEadv RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
 RTCGA.clinical (TdbasedUFEadv)
 RTCGA.CNV
 RTCGA.methylation
@@ -103,4 +72,8 @@ RTCGA.PANCAN12 (GOpro)
 RTCGA.rnaseq (TdbasedUFEadv FSelectorRcpp)
 RTCGA.RPPA
 
-# GOfuncR https://github.com/sgrote/GOfuncR/issues/12#issuecomment-4163503142
+
+# GOfuncR - no reverse
+# https://github.com/sgrote/GOfuncR/issues/12#issuecomment-4163503142
+#  Needs new maintainer -- deprecated
+
