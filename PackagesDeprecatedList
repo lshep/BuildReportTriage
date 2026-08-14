@@ -4,6 +4,7 @@ pathRender
 
 Unresponsive:
 
+
 Experiment Data:
 Requested:
 
@@ -22,7 +23,6 @@ cMAP
 hgu95av2 (BicARE (dep miRSM), tkWidgets (a lot)) - suggest hgu95av2.db
 
 Unresponsive
-
 
 
 UnDeprecated!!
@@ -77,3 +77,45 @@ RTCGA.RPPA
 # https://github.com/sgrote/GOfuncR/issues/12#issuecomment-4163503142
 #  Needs new maintainer -- deprecated
 
+
+
+#################################################################
+
+Software Unresponsive Large Files:
+SwathXtend 
+ChIPXpress
+
+Software Unresponsive Secrets:
+sevenbridges
+
+Experiment Data Unresponsive Large Files:
+ConnectivityMap 
+FlowSorted.Blood.450k (Depends: methylCC, methylationArrayAnalysis Suggest: mCSEA, minfi, wateRmelon, FlowSorted.Blood.EPIC) Andrew E Jaffe <andrew.jaffe@libd.org> 
+FlowSorted.DLPFC.450k (Imports: HiBED)
+ListerEtAlBSseq
+MMDiffBamSubset (Suggests: MMDiff same maintainer but diff email gschweik@staffmail.ed.ac.uk)
+pd.atdschip.tiling
+SVM2CRMdata
+Fletcher2013b (Suggests: geneplast)
+ChIPXpressData (Depends: ChIPXpress)
+
+
+
+NoResponse ExperimentData largefile:
+Affyhgu133aExpr (Suggests: GSCA same maintainer which has no reverse)
+Affyhgu133Plus2Expr (Suggests: GSCA same maintainer)
+Affymoe4302Expr (Suggests: GSCA same maintainer)
+ccdata (Suggests: retriever CRAN package)
+ChAMPdata (Depends: ChAMP, methyLImp2) 
+FlowSorted.CordBlood.450k (Suggests: FlowSorted.Blood.EPIC)
+furrowSeg 
+GeuvadisTranscriptExpr (Suggests: DRIMSeq same maintainer but diff email gosia.nowicka.uzh@gmail.com) starts slight cascade
+hapmapsnp6 (Suggests: crlmm, oligoClasses same maintainer but diff emails: benilton@unicamp.br, beniltoncarvalho@gmail.com) BAD BAD cascading affect
+mammaPrintData 
+Single.mTEC.Transcriptomes
+ELMER.data (Depends: ELMER -same maintainer  Imports: EpiMix and inturn Moonlight2R) 
+
+NoResponse Software secret:
+iModMix 
+RMassBank (Suggest: RMassBankData same maintainer)
+TSAR
