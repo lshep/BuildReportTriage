@@ -81,24 +81,23 @@ RTCGA.RPPA
 
 #################################################################
 
-Software Unresponsive Large Files:
+Software Unresponsive bounced Large Files:
 SwathXtend 
 ChIPXpress
 
-Software Unresponsive Secrets:
+Software Unresponsive bounced Secrets:
 sevenbridges
 
-Experiment Data Unresponsive Large Files:
+Experiment Data Unresponsive bounced Large Files:
 ConnectivityMap 
-FlowSorted.Blood.450k (Depends: methylCC, methylationArrayAnalysis Suggest: mCSEA, minfi, wateRmelon, FlowSorted.Blood.EPIC) Andrew E Jaffe <andrew.jaffe@libd.org> 
-FlowSorted.DLPFC.450k (Imports: HiBED)
 ListerEtAlBSseq
 MMDiffBamSubset (Suggests: MMDiff same maintainer but diff email gschweik@staffmail.ed.ac.uk)
 pd.atdschip.tiling
 SVM2CRMdata
-Fletcher2013b (Suggests: geneplast)
 ChIPXpressData (Depends: ChIPXpress)
 
+Responded ExperimentData large Files:
+Fletcher2013b (Suggests: geneplast) [requested]
 
 
 NoResponse ExperimentData largefile:
