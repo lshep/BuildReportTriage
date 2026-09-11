@@ -121,3 +121,16 @@ NoResponse Software secret:
 iModMix 
 RMassBank (Suggest: RMassBankData same maintainer)
 TSAR
+
+
+
+Experiment (from software):
+RMassBankData
+
+Software (from large files):
+ChAMP
+MMDiff
+GSCA
+ELMER
+DRIMSeq
+
