@@ -1,9 +1,12 @@
 Software:
 User Requestes:
+CSAR
 pathRender
 
 Unresponsive:
-
+InterCellar
+netZooR
+tidytof
 
 Experiment Data:
 Requested:
@@ -28,6 +31,7 @@ Unresponsive
 UnDeprecated!!
 Software:
 ChIPQC
+hypeR
 
 Experiment:
 
@@ -109,7 +113,6 @@ ChAMPdata (Depends: ChAMP, methyLImp2)
 FlowSorted.CordBlood.450k (Suggests: FlowSorted.Blood.EPIC)
 furrowSeg 
 GeuvadisTranscriptExpr (Suggests: DRIMSeq same maintainer but diff email gosia.nowicka.uzh@gmail.com) starts slight cascade
-hapmapsnp6 (Suggests: crlmm, oligoClasses same maintainer but diff emails: benilton@unicamp.br, beniltoncarvalho@gmail.com) BAD BAD cascading affect
 mammaPrintData 
 Single.mTEC.Transcriptomes
 ELMER.data (Depends: ELMER -same maintainer  Imports: EpiMix and inturn Moonlight2R) 
