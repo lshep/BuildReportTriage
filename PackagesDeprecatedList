@@ -37,6 +37,7 @@ ELMER.data (Depends: ELMER -same maintainer  Imports: EpiMix and inturn Moonligh
 FlowSorted.CordBlood.450k (Suggests: FlowSorted.Blood.EPIC) [large file]
 furrowSeg [large file]
 GeuvadisTranscriptExpr (Suggests: DRIMSeq same maintaine) [large file]
+iModMixData  [secret found in software]
 ListerEtAlBSseq [large file and email bounce]
 mammaPrintData  [large file]
 MMDiffBamSubset (Suggests: MMDiff2 same maintainer) [large file and bounced email]
@@ -54,7 +55,7 @@ Unresponsive:
 
 Annotation Data:
 Requested
-cMAP
+cMAP (pathRender - already deprecated)
 hgu95av2 (BicARE (miRSM))
 
 Unresponsive
