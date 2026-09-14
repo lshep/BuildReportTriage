@@ -39,7 +39,7 @@ furrowSeg [large file]
 GeuvadisTranscriptExpr (Suggests: DRIMSeq same maintaine) [large file]
 ListerEtAlBSseq [large file and email bounce]
 mammaPrintData  [large file]
-MMDiffBamSubset (Suggests: MMDiff same maintainer) [large file and bounced email]
+MMDiffBamSubset (Suggests: MMDiff2 same maintainer) [large file and bounced email]
 pd.atdschip.tiling [large file and email bounce]
 RMassBankData [secret in software package]
 Single.mTEC.Transcriptomes [large file]
@@ -55,7 +55,7 @@ Unresponsive:
 Annotation Data:
 Requested
 cMAP
-hgu95av2 (BicARE (dep miRSM), tkWidgets (a lot)) - suggest hgu95av2.db
+hgu95av2 (BicARE (miRSM))
 
 Unresponsive
 
@@ -63,40 +63,27 @@ Unresponsive
 
 
 UnDeprecated!!
+
 Software:
+bamsignals
 ChIPQC
 hypeR
+shiny.gosling 
+
+ExperimentData:
+curatedBreastData
 
 
 #########################################################################
 
 
-#ballgown (VaSP variancePartition)
+#ballgown (VaSP)
 VaSP
-variancePartition (dreamlet, crumblr, LimROTS, muscat, zenith, GRaNIE)
 
-#bamsignals (crupR karyoploteR normr segmenter)
-crupR 
-fourSynergy 
-karyoploteR (CopyNumberPlots, CNVfilteR, CNViz, fourSynergy, multicrispr,
-TmCalculator, Category, EpiMix, UPDhmm, MitoEAR)
-normr (also deprecated)
-segmnter
-
-#biobroom (TPP)
-TPP (Rtpca)
-
-#Organism.dplyr (linkSet Ularcirc)
+#Organism.dplyr (linkSet)
 linkSet
-Ularcirc 
 
-#shiny.gosling (gINTomics)
-gINTomics 
-
-#soGGi (profilerplyr)
-profilerplyr 
-
-#RTCGA (TdbasedUFEadv RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
+#RTCGA (TDbasedUFEadv RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
 RTCGA.clinical (TdbasedUFEadv)
 RTCGA.CNV
 RTCGA.methylation
@@ -104,5 +91,25 @@ RTCGA.miRNASeq
 RTCGA.mRNA,
 RTCGA.mutations
 RTCGA.PANCAN12 (GOpro)
-RTCGA.rnaseq (TdbasedUFEadv FSelectorRcpp)
+RTCGA.rnaseq (TDbasedUFEadv (TDbasedUFE))
 RTCGA.RPPA
+
+
+#Fletcher2013b
+geneplast
+
+#ChAMPData
+methyLImp2
+
+#ELMER.data
+EpiMix (Moonlight2R)
+
+#FlowSorted.CordBlood.450k
+FlowSorted.Blood.EPIC (lots of reverse!!)
+
+#DRIMSeq
+rnaseqDTU
+BANDITS (DifferentialRegulation)
+
+#hgu95av2
+BicARE (miRSM) - suggest hgu95av2.db
