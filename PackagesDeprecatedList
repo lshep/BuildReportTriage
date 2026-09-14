@@ -2,16 +2,48 @@ Software:
 User Requestes:
 CSAR
 pathRender
+systemPipeTools
 
 Unresponsive:
+ChAMP [large file in data package]
+ChIPXpress [large file and email bounce]
+DRIMSeq [data package large file]
+ELMER [data package large file]
+GOfuncR (https://github.com/sgrote/GOfuncR/issues/12#issuecomment-4163503142)
+GSCA [data package large file]
+iModMix  [secret found]
 InterCellar
+MMDiff2 [data large file and bounced email]
 netZooR
+RMassBank (Suggest: RMassBankData same maintainer) [secret found]
+sevenbridges [secrete found and email bounce]
+SwathXtend [large file and email bounce]
 tidytof
+TSAR [secret found]
 
 Experiment Data:
 Requested:
+Fletcher2013b (Suggests: geneplast) [requested not fixing large file]
 
 Unresponsive:
+Affyhgu133aExpr (Suggests: GSCA same maintainer) [large file]
+Affyhgu133Plus2Expr (Suggests: GSCA same maintainer) [large file]
+Affymoe4302Expr (Suggests: GSCA same maintainer) [large file]
+ccdata (Suggests: retriever CRAN package) [large file]
+ChAMPdata (Depends: ChAMP, methyLImp2) [large file]
+ChIPXpressData (Depends: ChIPXpress) [large file and email bounce]
+ConnectivityMap [large file and email bounce]
+ELMER.data (Depends: ELMER -same maintainer  Imports: EpiMix and inturn Moonlight2R)  [large file]
+FlowSorted.CordBlood.450k (Suggests: FlowSorted.Blood.EPIC) [large file]
+furrowSeg [large file]
+GeuvadisTranscriptExpr (Suggests: DRIMSeq same maintaine) [large file]
+ListerEtAlBSseq [large file and email bounce]
+mammaPrintData  [large file]
+MMDiffBamSubset (Suggests: MMDiff same maintainer) [large file and bounced email]
+pd.atdschip.tiling [large file and email bounce]
+RMassBankData [secret in software package]
+Single.mTEC.Transcriptomes [large file]
+SVM2CRMdata [large file and email bounce]
 
 
 Workflows:
@@ -28,17 +60,16 @@ hgu95av2 (BicARE (dep miRSM), tkWidgets (a lot)) - suggest hgu95av2.db
 Unresponsive
 
 
+
+
 UnDeprecated!!
 Software:
 ChIPQC
 hypeR
 
-Experiment:
 
+#########################################################################
 
-
-
-## Dependencies of RTCGA ... give him until hard remove
 
 #ballgown (VaSP variancePartition)
 VaSP
@@ -75,62 +106,3 @@ RTCGA.mutations
 RTCGA.PANCAN12 (GOpro)
 RTCGA.rnaseq (TdbasedUFEadv FSelectorRcpp)
 RTCGA.RPPA
-
-
-# GOfuncR - no reverse
-# https://github.com/sgrote/GOfuncR/issues/12#issuecomment-4163503142
-#  Needs new maintainer -- deprecated
-
-
-
-#################################################################
-
-Software Unresponsive bounced Large Files:
-SwathXtend 
-ChIPXpress
-
-Software Unresponsive bounced Secrets:
-sevenbridges
-
-Experiment Data Unresponsive bounced Large Files:
-ConnectivityMap 
-ListerEtAlBSseq
-MMDiffBamSubset (Suggests: MMDiff same maintainer but diff email gschweik@staffmail.ed.ac.uk)
-pd.atdschip.tiling
-SVM2CRMdata
-ChIPXpressData (Depends: ChIPXpress)
-
-Responded ExperimentData large Files:
-Fletcher2013b (Suggests: geneplast) [requested]
-
-
-NoResponse ExperimentData largefile:
-Affyhgu133aExpr (Suggests: GSCA same maintainer which has no reverse)
-Affyhgu133Plus2Expr (Suggests: GSCA same maintainer)
-Affymoe4302Expr (Suggests: GSCA same maintainer)
-ccdata (Suggests: retriever CRAN package)
-ChAMPdata (Depends: ChAMP, methyLImp2) 
-FlowSorted.CordBlood.450k (Suggests: FlowSorted.Blood.EPIC)
-furrowSeg 
-GeuvadisTranscriptExpr (Suggests: DRIMSeq same maintainer but diff email gosia.nowicka.uzh@gmail.com) starts slight cascade
-mammaPrintData 
-Single.mTEC.Transcriptomes
-ELMER.data (Depends: ELMER -same maintainer  Imports: EpiMix and inturn Moonlight2R) 
-
-NoResponse Software secret:
-iModMix 
-RMassBank (Suggest: RMassBankData same maintainer)
-TSAR
-
-
-
-Experiment (from software):
-RMassBankData
-
-Software (from large files):
-ChAMP
-MMDiff
-GSCA
-ELMER
-DRIMSeq
-
