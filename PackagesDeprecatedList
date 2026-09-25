@@ -1,6 +1,7 @@
 Software:
 User Requestes:
 CSAR
+MoonlightR
 pathRender
 systemPipeTools
 
@@ -43,6 +44,15 @@ mammaPrintData  [large file]
 MMDiffBamSubset (Suggests: MMDiff2 same maintainer) [large file and bounced email]
 pd.atdschip.tiling [large file and email bounce]
 RMassBankData [secret in software package]
+RTCGA.clinical (TdbasedUFEadv)
+RTCGA.CNV
+RTCGA.methylation
+RTCGA.miRNASeq
+RTCGA.mRNA,
+RTCGA.mutations
+RTCGA.PANCAN12 (GOpro)
+RTCGA.rnaseq (TDbasedUFEadv)
+RTCGA.RPPA
 Single.mTEC.Transcriptomes [large file]
 SVM2CRMdata [large file and email bounce]
 
@@ -88,32 +98,24 @@ VaSP
 linkSet
 
 #RTCGA (TDbasedUFEadv RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
-RTCGA.clinical (TdbasedUFEadv)
-RTCGA.CNV
-RTCGA.methylation
-RTCGA.miRNASeq
-RTCGA.mRNA,
-RTCGA.mutations
-RTCGA.PANCAN12 (GOpro)
-RTCGA.rnaseq (TDbasedUFEadv (TDbasedUFE))
-RTCGA.RPPA
-
+TDbasedUFEadv
+GOpro
 
 #Fletcher2013b
-geneplast
+geneplast (geneplast.data (circular))
 
 #ChAMPData
 methyLImp2
 
 #ELMER.data
-EpiMix (Moonlight2R)
+EpiMix (Moonlight2R (none))
 
 #FlowSorted.CordBlood.450k
 FlowSorted.Blood.EPIC (lots of reverse!!)
 
 #DRIMSeq
 rnaseqDTU
-BANDITS (DifferentialRegulation)
+BANDITS (DifferentialRegulation (none))
 
 #hgu95av2
-BicARE (miRSM) - suggest hgu95av2.db
+BicARE (miRSM (none)) - suggest hgu95av2.db
