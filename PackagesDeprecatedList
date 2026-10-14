@@ -97,8 +97,7 @@ VaSP
 #Organism.dplyr (linkSet)
 linkSet
 
-#RTCGA (TDbasedUFEadv RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
-TDbasedUFEadv
+#RTCGA (RTCGA.clinical, RTCGA.CNV, RTCGA.methylation, RTCGA.miRNASeq, RTCGA.mRNA, RTCGA.mutations, RTCGA.PANCAN12, RTCGA.rnaseq, RTCGA.RPPA)
 GOpro
 
 #Fletcher2013b
