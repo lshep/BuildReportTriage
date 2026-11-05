@@ -44,6 +44,7 @@ ListerEtAlBSseq [large file and email bounce]
 mammaPrintData  [large file]
 MMDiffBamSubset (Suggests: MMDiff2 same maintainer) [large file and bounced email]
 pd.atdschip.tiling [large file and email bounce]
+RcisTarget.hg19.motifDBs.cisbpOnly.500bp (RcisTarget deprecated in 3.23)
 RMassBankData [secret in software package]
 RTCGA.clinical (TdbasedUFEadv)
 RTCGA.CNV
@@ -56,6 +57,7 @@ RTCGA.rnaseq (TDbasedUFEadv)
 RTCGA.RPPA
 Single.mTEC.Transcriptomes [large file]
 SVM2CRMdata [large file and email bounce]
+tofsimsData (deprecated in 3.18)
 
 
 Workflows:
