@@ -3,12 +3,12 @@ User Requestes:
 CSAR
 MoonlightR
 pathRender
+scAnnotatR
 systemPipeTools
 
 Unresponsive:
 ChAMP [large file in data package]
 ChIPXpress [large file and email bounce]
-ELMER [data package large file]
 GOfuncR (https://github.com/sgrote/GOfuncR/issues/12#issuecomment-4163503142)
 GSCA [data package large file]
 iModMix  [secret found]
@@ -36,7 +36,6 @@ ccdata (Suggests: retriever CRAN package) [large file]
 ChAMPdata (Depends: ChAMP, methyLImp2) [large file]
 ChIPXpressData (Depends: ChIPXpress) [large file and email bounce]
 ConnectivityMap [large file and email bounce]
-ELMER.data (Depends: ELMER -same maintainer  Imports: EpiMix and inturn Moonlight2R)  [large file]
 FlowSorted.CordBlood.450k (Suggests: FlowSorted.Blood.EPIC) [large file]
 furrowSeg [large file]
 iModMixData  [secret found in software]
