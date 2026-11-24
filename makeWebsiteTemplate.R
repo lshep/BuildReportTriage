@@ -20,6 +20,10 @@ for (line in lines) {
         refstart <- '<li><a href="/packages/3.21/workflows/html/'
         next
     }
+    if (pkg == "AnnotationData:"){
+        refstart <- '<li><a href="/packages/3.21/data/annotation/html/'
+        next
+    }
     if (pkg == ""){
         cat("\n")
         next
